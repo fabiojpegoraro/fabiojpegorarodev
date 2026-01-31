@@ -135,7 +135,7 @@ export const Header = () => {
     <>
       <HeaderWrapper $scrolled={scrolled}>
         <HeaderContent>
-          <Logo href="#hero">{personalInfo.name.split(' ')[0]}</Logo>
+          <Logo href="#hero">Fábio Pegoraro</Logo>
           <Nav>
             {navItems.map((item) => (
               <NavLink key={item.href} href={item.href}>

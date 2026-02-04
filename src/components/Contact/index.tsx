@@ -144,15 +144,15 @@ export const Contact = () => {
             <ContactLabel>E-mail</ContactLabel>
             <ContactValue>{personalInfo.email}</ContactValue>
           </ContactCard>
-          <ContactCard href={`tel:${personalInfo.phone.replace(/\s/g, '')}`}>
-            <ContactIcon>📱</ContactIcon>
-            <ContactLabel>Telefone</ContactLabel>
-            <ContactValue>{personalInfo.phone}</ContactValue>
-          </ContactCard>
           <ContactCard href={personalInfo.linkedin} target="_blank" rel="noopener noreferrer">
             <ContactIcon>💼</ContactIcon>
             <ContactLabel>LinkedIn</ContactLabel>
             <ContactValue>Ver Perfil</ContactValue>
+          </ContactCard>
+          <ContactCard href={personalInfo.github} target="_blank" rel="noopener noreferrer">
+            <ContactIcon>🧑🏽‍💻</ContactIcon>
+            <ContactLabel>GitHub</ContactLabel>
+            <ContactValue>{personalInfo.github}</ContactValue>
           </ContactCard>
         </ContactGrid>
         <CTAButton href={`mailto:${personalInfo.email}`}>

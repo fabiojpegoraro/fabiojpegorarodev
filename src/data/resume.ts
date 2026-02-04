@@ -2,9 +2,9 @@ export const personalInfo = {
   name: 'Fábio José Pegoraro',
   title: 'Desenvolvedor Front-end',
   location: 'Florianópolis – Brasil',
-  phone: '+55 48 99616-5039',
   email: 'fabiojpegoraro@gmail.com',
   linkedin: 'https://www.linkedin.com/in/fabio-jos%C3%A9-pegoraro-1a809b51/',
+  github: 'https://github.com/fabiojpegoraro',
 };
 
 export const summary = `Profissional de TI com mais de 14 anos de experiência em desenvolvimento de software e 4 anos de atuação como desenvolvedor front-end, trabalhando no desenvolvimento de interfaces de usuário de alto desempenho e escaláveis. Nos últimos anos, participei de um projeto robusto com gerenciamento de estado global, fluxos assíncronos e fortes práticas de arquitetura frontend.
